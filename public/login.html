@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Login </title>
+        <link rel="stylesheet" href="login-style.css">
+    </head>
+
+    <body>
+
+        <div id="div-background">
+            <label id="login-label"> Login </label>
+            <label id="message"> Welcome Back </label>
+            <form action="/login" method="post">
+                <label id="email-label"> Email: </label>
+                <input type="text" id="email-input" name="email">
+
+                <label id="password-label"> Password: </label>
+                <input type="password" id="password-input" name="password">
+
+                <button type="submit" id="login-submit">Login</button>
+                
+            </form>
+            <a id="create-account" href="/signup"> Don't have account? </a>
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title> Sign up </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="./download.jfif">
+    </head>
+
+    <body>
+
+        <div id="div-background">
+            <label id="signup-label"> Sign up </label>
+            <form action="/signup" method="post">
+                <label id="email-label"> Email: </label>
+                <input type="text" id="email-input" name="email">
+
+                <label id="full-name-label"> Full name: </label>
+                <input type="text" id="full-name-input" name="fullname">
+
+                <label id="password-label"> Password: </label>
+                <input type="password" id="password-input" name="password">
+
+                <label id="confirm-password-label"> Confirm password: </label>
+                <input type="password" id="confirm-password-input" name="confirmpassword">
+
+                <button type="submit" id="signup-submit">Sign up</button>
+                <a id="need-account" href="/login"> Do you have account? </a>
+            </form>
+
+        </div>
+
+    </body>
+
+</html>

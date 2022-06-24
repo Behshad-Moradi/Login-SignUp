@@ -1,0 +1,83 @@
+#div-background {
+    border: 1px solid black;
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+}
+
+#login-label {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 50%;
+    color: red;
+    font-size: x-large;
+}
+
+#message {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    color: red;
+    font-size: x-large;
+}
+
+#login-submit {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+}
+
+#create-account {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 50%;
+}
+
+#email-label {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+}
+
+#email-input {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 50%;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+#password-label {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+}
+
+#password-input {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}

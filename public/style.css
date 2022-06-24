@@ -1,0 +1,109 @@
+#div-background {
+    border: 1px solid black;
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+}
+
+#signup-label {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 50%;
+    color: red;
+    font-size: x-large;
+}
+
+#signup-submit {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+}
+
+#need-account {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    left: 50%;
+}
+
+#email-label {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+}
+
+#email-input {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 50%;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+#full-name-label {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 50%;
+}
+
+#full-name-input {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#password-label {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+}
+
+#password-input {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    left: 50%;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#confirm-password-label {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left: 50%;
+}
+
+#confirm-password-input {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
