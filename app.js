@@ -8,8 +8,6 @@ const Schema = mongoose.Schema;
 const app = express();
 const PORT = 8080;
 
-mongoose.connect("mongodb://localhost/user");
-
 const userSchema = new Schema({
     email : String,
     fullName : String,
@@ -23,6 +21,13 @@ app.use(express.urlencoded({extended : true}));
 
 const signUpPage = fs.readFileSync(path.join(__dirname, "public", "signup.html"));
 const logInPage = fs.readFileSync(path.join(__dirname, "public", "login.html"));
+
+
+mongoose.connect("mongodb://127.0.0.1/user", () => {
+    console.log("Connected...");
+});
+
+//mongodb+srv://BehshadMoradi:Wanted007@cluster0.eqhlv.mongodb.net/?retryWrites=true&w=majority
 
 app.get("/", (req, res) => {
     res.writeHead(200, {'Content-Type' : 'text/html'});
